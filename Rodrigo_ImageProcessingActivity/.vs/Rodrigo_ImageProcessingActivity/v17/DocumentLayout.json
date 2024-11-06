@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HP\\Documents\\3RD YEAR CS\\1ST SEM\\IS\\Image Processing\\Rodrigo_ImageProcessingActivity\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FB957D71-DE3D-4B12-A535-2C1C3BE79967}|Rodrigo_ImageProcessingActivity.csproj|c:\\users\\hp\\documents\\3rd year cs\\1st sem\\is\\image processing\\rodrigo_imageprocessingactivity\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB957D71-DE3D-4B12-A535-2C1C3BE79967}|Rodrigo_ImageProcessingActivity.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB957D71-DE3D-4B12-A535-2C1C3BE79967}|Rodrigo_ImageProcessingActivity.csproj|c:\\users\\hp\\documents\\3rd year cs\\1st sem\\is\\image processing\\rodrigo_imageprocessingactivity\\basicdip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB957D71-DE3D-4B12-A535-2C1C3BE79967}|Rodrigo_ImageProcessingActivity.csproj|solutionrelative:basicdip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB957D71-DE3D-4B12-A535-2C1C3BE79967}|Rodrigo_ImageProcessingActivity.csproj|c:\\users\\hp\\documents\\3rd year cs\\1st sem\\is\\image processing\\rodrigo_imageprocessingactivity\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FB957D71-DE3D-4B12-A535-2C1C3BE79967}|Rodrigo_ImageProcessingActivity.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB957D71-DE3D-4B12-A535-2C1C3BE79967}|Rodrigo_ImageProcessingActivity.csproj|c:\\users\\hp\\documents\\3rd year cs\\1st sem\\is\\image processing\\rodrigo_imageprocessingactivity\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB957D71-DE3D-4B12-A535-2C1C3BE79967}|Rodrigo_ImageProcessingActivity.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\3RD YEAR CS\\1ST SEM\\IS\\Image Processing\\Rodrigo_ImageProcessingActivity\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\HP\\Documents\\3RD YEAR CS\\1ST SEM\\IS\\Image Processing\\Rodrigo_ImageProcessingActivity\\Form1.Designer.cs",
+              "RelativeToolTip": "Form1.Designer.cs",
+              "ViewState": "AgIAABABAAAAAAAAAAApwLQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T16:18:06.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BasicDIP.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\3RD YEAR CS\\1ST SEM\\IS\\Image Processing\\Rodrigo_ImageProcessingActivity\\BasicDIP.cs",
+              "RelativeDocumentMoniker": "BasicDIP.cs",
+              "ToolTip": "C:\\Users\\HP\\Documents\\3RD YEAR CS\\1ST SEM\\IS\\Image Processing\\Rodrigo_ImageProcessingActivity\\BasicDIP.cs",
+              "RelativeToolTip": "BasicDIP.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T14:12:10.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\3RD YEAR CS\\1ST SEM\\IS\\Image Processing\\Rodrigo_ImageProcessingActivity\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\HP\\Documents\\3RD YEAR CS\\1ST SEM\\IS\\Image Processing\\Rodrigo_ImageProcessingActivity\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAKcAAAAAAAAAAAAtwK8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T11:44:43.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\3RD YEAR CS\\1ST SEM\\IS\\Image Processing\\Rodrigo_ImageProcessingActivity\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\HP\\Documents\\3RD YEAR CS\\1ST SEM\\IS\\Image Processing\\Rodrigo_ImageProcessingActivity\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T11:36:11.365Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
