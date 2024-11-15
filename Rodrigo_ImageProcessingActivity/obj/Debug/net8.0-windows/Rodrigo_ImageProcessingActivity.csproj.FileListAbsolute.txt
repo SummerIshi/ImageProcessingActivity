@@ -15,3 +15,20 @@ C:\Users\HP\Documents\3RD YEAR CS\1ST SEM\IS\Image Processing\Rodrigo_ImageProce
 C:\Users\HP\Documents\3RD YEAR CS\1ST SEM\IS\Image Processing\Rodrigo_ImageProcessingActivity\obj\Debug\net8.0-windows\Rodrigo_ImageProcessingActivity.pdb
 C:\Users\HP\Documents\3RD YEAR CS\1ST SEM\IS\Image Processing\Rodrigo_ImageProcessingActivity\obj\Debug\net8.0-windows\Rodrigo_ImageProcessingActivity.genruntimeconfig.cache
 C:\Users\HP\Documents\3RD YEAR CS\1ST SEM\IS\Image Processing\Rodrigo_ImageProcessingActivity\obj\Debug\net8.0-windows\ref\Rodrigo_ImageProcessingActivity.dll
+D:\3RD YEAR\IS\ImageProcessingActivity\Rodrigo_ImageProcessingActivity\bin\Debug\net8.0-windows\Rodrigo_ImageProcessingActivity.exe
+D:\3RD YEAR\IS\ImageProcessingActivity\Rodrigo_ImageProcessingActivity\bin\Debug\net8.0-windows\Rodrigo_ImageProcessingActivity.deps.json
+D:\3RD YEAR\IS\ImageProcessingActivity\Rodrigo_ImageProcessingActivity\bin\Debug\net8.0-windows\Rodrigo_ImageProcessingActivity.runtimeconfig.json
+D:\3RD YEAR\IS\ImageProcessingActivity\Rodrigo_ImageProcessingActivity\bin\Debug\net8.0-windows\Rodrigo_ImageProcessingActivity.dll
+D:\3RD YEAR\IS\ImageProcessingActivity\Rodrigo_ImageProcessingActivity\bin\Debug\net8.0-windows\Rodrigo_ImageProcessingActivity.pdb
+D:\3RD YEAR\IS\ImageProcessingActivity\Rodrigo_ImageProcessingActivity\obj\Debug\net8.0-windows\Rodrigo_ImageProcessingActivity.Form1.resources
+D:\3RD YEAR\IS\ImageProcessingActivity\Rodrigo_ImageProcessingActivity\obj\Debug\net8.0-windows\Rodrigo_ImageProcessingActivity.csproj.GenerateResource.cache
+D:\3RD YEAR\IS\ImageProcessingActivity\Rodrigo_ImageProcessingActivity\obj\Debug\net8.0-windows\Rodrigo_ImageProcessingActivity.GeneratedMSBuildEditorConfig.editorconfig
+D:\3RD YEAR\IS\ImageProcessingActivity\Rodrigo_ImageProcessingActivity\obj\Debug\net8.0-windows\Rodrigo_ImageProcessingActivity.AssemblyInfoInputs.cache
+D:\3RD YEAR\IS\ImageProcessingActivity\Rodrigo_ImageProcessingActivity\obj\Debug\net8.0-windows\Rodrigo_ImageProcessingActivity.AssemblyInfo.cs
+D:\3RD YEAR\IS\ImageProcessingActivity\Rodrigo_ImageProcessingActivity\obj\Debug\net8.0-windows\Rodrigo_ImageProcessingActivity.csproj.CoreCompileInputs.cache
+D:\3RD YEAR\IS\ImageProcessingActivity\Rodrigo_ImageProcessingActivity\obj\Debug\net8.0-windows\Rodrigo_ImageProcessingActivity.sourcelink.json
+D:\3RD YEAR\IS\ImageProcessingActivity\Rodrigo_ImageProcessingActivity\obj\Debug\net8.0-windows\Rodrigo_ImageProcessingActivity.dll
+D:\3RD YEAR\IS\ImageProcessingActivity\Rodrigo_ImageProcessingActivity\obj\Debug\net8.0-windows\refint\Rodrigo_ImageProcessingActivity.dll
+D:\3RD YEAR\IS\ImageProcessingActivity\Rodrigo_ImageProcessingActivity\obj\Debug\net8.0-windows\Rodrigo_ImageProcessingActivity.pdb
+D:\3RD YEAR\IS\ImageProcessingActivity\Rodrigo_ImageProcessingActivity\obj\Debug\net8.0-windows\Rodrigo_ImageProcessingActivity.genruntimeconfig.cache
+D:\3RD YEAR\IS\ImageProcessingActivity\Rodrigo_ImageProcessingActivity\obj\Debug\net8.0-windows\ref\Rodrigo_ImageProcessingActivity.dll
