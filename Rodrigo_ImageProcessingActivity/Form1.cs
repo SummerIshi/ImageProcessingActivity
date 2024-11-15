@@ -16,6 +16,7 @@ namespace Rodrigo_ImageProcessingActivity
         {
             loaded = new Bitmap(openFileDialog1.FileName);
             pictureBox1.Image = loaded;
+            //try
         }
 
         private void pixelCopyToolStripMenuItem_Click(object sender, EventArgs e)
