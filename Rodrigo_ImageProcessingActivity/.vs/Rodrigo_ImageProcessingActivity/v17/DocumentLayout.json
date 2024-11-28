@@ -11,7 +11,7 @@
       "RelativeMoniker": "D:0:0:{FB957D71-DE3D-4B12-A535-2C1C3BE79967}|Rodrigo_ImageProcessingActivity.csproj|solutionrelative:basicdip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB957D71-DE3D-4B12-A535-2C1C3BE79967}|Rodrigo_ImageProcessingActivity.csproj|c:\\users\\hp\\documents\\3rd year cs\\1st sem\\is\\image processing\\rodrigo_imageprocessingactivity\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{FB957D71-DE3D-4B12-A535-2C1C3BE79967}|Rodrigo_ImageProcessingActivity.csproj|C:\\Users\\HP\\Documents\\3RD YEAR CS\\1ST SEM\\IS\\Image Processing\\Rodrigo_ImageProcessingActivity\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{FB957D71-DE3D-4B12-A535-2C1C3BE79967}|Rodrigo_ImageProcessingActivity.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -38,8 +38,7 @@
               "RelativeToolTip": "Form1.Designer.cs",
               "ViewState": "AgIAABABAAAAAAAAAAApwLQAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T16:18:06.956Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-06T16:18:06.956Z"
             },
             {
               "$type": "Document",
@@ -51,8 +50,7 @@
               "RelativeToolTip": "BasicDIP.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T14:12:10.847Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-06T14:12:10.847Z"
             },
             {
               "$type": "Document",
@@ -76,8 +74,7 @@
               "ToolTip": "C:\\Users\\HP\\Documents\\3RD YEAR CS\\1ST SEM\\IS\\Image Processing\\Rodrigo_ImageProcessingActivity\\Form1.cs [Design]",
               "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T11:36:11.365Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-06T11:36:11.365Z"
             }
           ]
         }
