@@ -1,11 +1,19 @@
+using ImageProcess2;
 using System.Runtime.Intrinsics.X86;
 using System.Windows.Forms;
+using WebCamLib;
 
 namespace Rodrigo_ImageProcessingActivity
 {
     public partial class Form1 : Form
     {
         Bitmap loaded, processed, image1, image2, result;
+        Device[] devices;
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            devices = DeviceManager.GetAllDevices();
+        }
         public Form1()
         {
             InitializeComponent();
@@ -16,6 +24,7 @@ namespace Rodrigo_ImageProcessingActivity
         {
             loaded = new Bitmap(openFileDialog1.FileName);
             pictureBox1.Image = loaded;
+            //try
         }
 
         private void pixelCopyToolStripMenuItem_Click(object sender, EventArgs e)
@@ -178,6 +187,112 @@ namespace Rodrigo_ImageProcessingActivity
         private void saveFileDialog2_FileOk(object sender, System.ComponentModel.CancelEventArgs e)
         {
             result.Save(saveFileDialog2.FileName);
+        }
+
+        private void onToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            devices[0].ShowWindow(pictureBox1);
+        }
+
+
+
+        private void offToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            devices[0].Stop();
+            timer1.Stop();
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+
+            IDataObject data;
+            Image bmap;
+            devices[0].Sendmessage();
+            data = Clipboard.GetDataObject();
+            bmap = (Image)(data.GetData("System.Drawing.Bitmap", true));
+
+            Bitmap b = new Bitmap(bmap);
+
+            BitmapFilter.GrayScale(b);
+
+            pictureBox2.Image = b;
+        }
+
+        private void grayscaleToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            timer1.Enabled = true;
+        }
+
+        private void smoothToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            processed = new Bitmap(loaded);
+            BitmapFilter.Smooth(processed, 1);
+            pictureBox2.Image = processed;
+        }
+
+        private void gaussianBlurToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            processed = new Bitmap(loaded);
+            BitmapFilter.GaussianBlur(processed, 20);
+            pictureBox2.Image = processed;
+        }
+
+        private void sharpenToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            processed = new Bitmap(loaded);
+            BitmapFilter.Sharpen(processed, 11);
+            pictureBox2.Image = processed;
+        }
+
+        private void meanRemovalToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            processed = new Bitmap(loaded);
+            BitmapFilter.MeanRemoval(processed, 9);
+            pictureBox2.Image = processed;
+        }
+
+        private void embossingToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            processed = new Bitmap(loaded);
+            BitmapFilter.EmbossLaplacian(processed);
+            pictureBox2.Image = processed;
+        }
+
+        private void edgeDetectQuickToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            processed = new Bitmap(loaded);
+            BitmapFilter.EdgeDetectQuick(processed);
+            pictureBox2.Image = processed;
+        }
+
+        private void toolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            processed = new Bitmap(loaded);
+            BitmapFilter.EdgeDetectHorizontal(processed);
+            pictureBox2.Image = processed;
+        }
+
+        private void edgeDetectVerticalToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            processed = new Bitmap(loaded);
+            BitmapFilter.EdgeDetectVertical(processed);
+            pictureBox2.Image = processed;
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cOINToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form2 coins_form = new Form2();
+            coins_form.ShowDialog();
         }
     }
 }

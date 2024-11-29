@@ -3,20 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\HP\\Documents\\3RD YEAR CS\\1ST SEM\\IS\\Image Processing\\Rodrigo_ImageProcessingActivity\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FB957D71-DE3D-4B12-A535-2C1C3BE79967}|Rodrigo_ImageProcessingActivity.csproj|c:\\users\\hp\\documents\\3rd year cs\\1st sem\\is\\image processing\\rodrigo_imageprocessingactivity\\citlibfilters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB957D71-DE3D-4B12-A535-2C1C3BE79967}|Rodrigo_ImageProcessingActivity.csproj|solutionrelative:citlibfilters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB957D71-DE3D-4B12-A535-2C1C3BE79967}|Rodrigo_ImageProcessingActivity.csproj|c:\\users\\hp\\documents\\3rd year cs\\1st sem\\is\\image processing\\rodrigo_imageprocessingactivity\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB957D71-DE3D-4B12-A535-2C1C3BE79967}|Rodrigo_ImageProcessingActivity.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB957D71-DE3D-4B12-A535-2C1C3BE79967}|Rodrigo_ImageProcessingActivity.csproj|c:\\users\\hp\\documents\\3rd year cs\\1st sem\\is\\image processing\\rodrigo_imageprocessingactivity\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FB957D71-DE3D-4B12-A535-2C1C3BE79967}|Rodrigo_ImageProcessingActivity.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB957D71-DE3D-4B12-A535-2C1C3BE79967}|Rodrigo_ImageProcessingActivity.csproj|c:\\users\\hp\\documents\\3rd year cs\\1st sem\\is\\image processing\\rodrigo_imageprocessingactivity\\form2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB957D71-DE3D-4B12-A535-2C1C3BE79967}|Rodrigo_ImageProcessingActivity.csproj|solutionrelative:form2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FB957D71-DE3D-4B12-A535-2C1C3BE79967}|Rodrigo_ImageProcessingActivity.csproj|c:\\users\\hp\\documents\\3rd year cs\\1st sem\\is\\image processing\\rodrigo_imageprocessingactivity\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB957D71-DE3D-4B12-A535-2C1C3BE79967}|Rodrigo_ImageProcessingActivity.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB957D71-DE3D-4B12-A535-2C1C3BE79967}|Rodrigo_ImageProcessingActivity.csproj|c:\\users\\hp\\documents\\3rd year cs\\1st sem\\is\\image processing\\rodrigo_imageprocessingactivity\\basicdip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB957D71-DE3D-4B12-A535-2C1C3BE79967}|Rodrigo_ImageProcessingActivity.csproj|solutionrelative:basicdip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB957D71-DE3D-4B12-A535-2C1C3BE79967}|Rodrigo_ImageProcessingActivity.csproj|c:\\users\\hp\\documents\\3rd year cs\\1st sem\\is\\image processing\\rodrigo_imageprocessingactivity\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{FB957D71-DE3D-4B12-A535-2C1C3BE79967}|Rodrigo_ImageProcessingActivity.csproj|C:\\Users\\HP\\Documents\\3RD YEAR CS\\1ST SEM\\IS\\Image Processing\\Rodrigo_ImageProcessingActivity\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{FB957D71-DE3D-4B12-A535-2C1C3BE79967}|Rodrigo_ImageProcessingActivity.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FB957D71-DE3D-4B12-A535-2C1C3BE79967}|Rodrigo_ImageProcessingActivity.csproj|c:\\users\\hp\\documents\\3rd year cs\\1st sem\\is\\image processing\\rodrigo_imageprocessingactivity\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB957D71-DE3D-4B12-A535-2C1C3BE79967}|Rodrigo_ImageProcessingActivity.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB957D71-DE3D-4B12-A535-2C1C3BE79967}|Rodrigo_ImageProcessingActivity.csproj|c:\\users\\hp\\documents\\3rd year cs\\1st sem\\is\\image processing\\rodrigo_imageprocessingactivity\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB957D71-DE3D-4B12-A535-2C1C3BE79967}|Rodrigo_ImageProcessingActivity.csproj|solutionrelative:device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB957D71-DE3D-4B12-A535-2C1C3BE79967}|Rodrigo_ImageProcessingActivity.csproj|c:\\users\\hp\\documents\\3rd year cs\\1st sem\\is\\image processing\\rodrigo_imageprocessingactivity\\basicdip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB957D71-DE3D-4B12-A535-2C1C3BE79967}|Rodrigo_ImageProcessingActivity.csproj|solutionrelative:basicdip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,24 +46,92 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\3RD YEAR CS\\1ST SEM\\IS\\Image Processing\\Rodrigo_ImageProcessingActivity\\Form2.cs",
+              "RelativeDocumentMoniker": "Form2.cs",
+              "ToolTip": "C:\\Users\\HP\\Documents\\3RD YEAR CS\\1ST SEM\\IS\\Image Processing\\Rodrigo_ImageProcessingActivity\\Form2.cs",
+              "RelativeToolTip": "Form2.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAwwJEAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:17:04.951Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Form2.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\3RD YEAR CS\\1ST SEM\\IS\\Image Processing\\Rodrigo_ImageProcessingActivity\\Form2.Designer.cs",
+              "RelativeDocumentMoniker": "Form2.Designer.cs",
+              "ToolTip": "C:\\Users\\HP\\Documents\\3RD YEAR CS\\1ST SEM\\IS\\Image Processing\\Rodrigo_ImageProcessingActivity\\Form2.Designer.cs",
+              "RelativeToolTip": "Form2.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:16:40.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form2.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\3RD YEAR CS\\1ST SEM\\IS\\Image Processing\\Rodrigo_ImageProcessingActivity\\Form2.cs",
+              "RelativeDocumentMoniker": "Form2.cs",
+              "ToolTip": "C:\\Users\\HP\\Documents\\3RD YEAR CS\\1ST SEM\\IS\\Image Processing\\Rodrigo_ImageProcessingActivity\\Form2.cs [Design]",
+              "RelativeToolTip": "Form2.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:12:00.482Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Device.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\3RD YEAR CS\\1ST SEM\\IS\\Image Processing\\Rodrigo_ImageProcessingActivity\\Device.cs",
+              "RelativeDocumentMoniker": "Device.cs",
+              "ToolTip": "C:\\Users\\HP\\Documents\\3RD YEAR CS\\1ST SEM\\IS\\Image Processing\\Rodrigo_ImageProcessingActivity\\Device.cs",
+              "RelativeToolTip": "Device.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T12:33:43.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CITLIBFilters.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\3RD YEAR CS\\1ST SEM\\IS\\Image Processing\\Rodrigo_ImageProcessingActivity\\CITLIBFilters.cs",
+              "RelativeDocumentMoniker": "CITLIBFilters.cs",
+              "ToolTip": "C:\\Users\\HP\\Documents\\3RD YEAR CS\\1ST SEM\\IS\\Image Processing\\Rodrigo_ImageProcessingActivity\\CITLIBFilters.cs",
+              "RelativeToolTip": "CITLIBFilters.cs",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAIwJMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T12:33:41.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Documents\\3RD YEAR CS\\1ST SEM\\IS\\Image Processing\\Rodrigo_ImageProcessingActivity\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "Form1.Designer.cs",
               "ToolTip": "C:\\Users\\HP\\Documents\\3RD YEAR CS\\1ST SEM\\IS\\Image Processing\\Rodrigo_ImageProcessingActivity\\Form1.Designer.cs",
               "RelativeToolTip": "Form1.Designer.cs",
-              "ViewState": "AgIAABABAAAAAAAAAAApwLQAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-06T16:18:06.956Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "BasicDIP.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Documents\\3RD YEAR CS\\1ST SEM\\IS\\Image Processing\\Rodrigo_ImageProcessingActivity\\BasicDIP.cs",
               "RelativeDocumentMoniker": "BasicDIP.cs",
@@ -51,25 +139,24 @@
               "RelativeToolTip": "BasicDIP.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T14:12:10.847Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-06T14:12:10.847Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Documents\\3RD YEAR CS\\1ST SEM\\IS\\Image Processing\\Rodrigo_ImageProcessingActivity\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\HP\\Documents\\3RD YEAR CS\\1ST SEM\\IS\\Image Processing\\Rodrigo_ImageProcessingActivity\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAKcAAAAAAAAAAAAtwK8AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAnwIAAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-06T11:44:43.353Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\HP\\Documents\\3RD YEAR CS\\1ST SEM\\IS\\Image Processing\\Rodrigo_ImageProcessingActivity\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",

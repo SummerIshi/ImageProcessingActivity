@@ -3,14 +3,9 @@ namespace Rodrigo_ImageProcessingActivity
 {
     partial class Form1
     {
-        /// <summary>
-        ///  Required designer variable.
-        /// </summary>
+       
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
-        ///  Clean up any resources being used.
-        /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
@@ -29,6 +24,7 @@ namespace Rodrigo_ImageProcessingActivity
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             menuStrip1 = new MenuStrip();
             fileToolStripMenuItem = new ToolStripMenuItem();
             openToolStripMenuItem = new ToolStripMenuItem();
@@ -39,6 +35,18 @@ namespace Rodrigo_ImageProcessingActivity
             inversionToolStripMenuItem = new ToolStripMenuItem();
             histogramToolStripMenuItem = new ToolStripMenuItem();
             sepiaToolStripMenuItem = new ToolStripMenuItem();
+            smoothToolStripMenuItem = new ToolStripMenuItem();
+            gaussianBlurToolStripMenuItem = new ToolStripMenuItem();
+            sharpenToolStripMenuItem = new ToolStripMenuItem();
+            meanRemovalToolStripMenuItem = new ToolStripMenuItem();
+            embossingToolStripMenuItem = new ToolStripMenuItem();
+            edgeDetectQuickToolStripMenuItem = new ToolStripMenuItem();
+            toolStripMenuItem1 = new ToolStripMenuItem();
+            edgeDetectVerticalToolStripMenuItem = new ToolStripMenuItem();
+            onToolStripMenuItem = new ToolStripMenuItem();
+            offToolStripMenuItem = new ToolStripMenuItem();
+            vIDEOToolStripMenuItem = new ToolStripMenuItem();
+            grayscaleToolStripMenuItem = new ToolStripMenuItem();
             openFileDialog1 = new OpenFileDialog();
             saveFileDialog1 = new SaveFileDialog();
             pictureBox1 = new PictureBox();
@@ -53,6 +61,8 @@ namespace Rodrigo_ImageProcessingActivity
             openFileDialog3 = new OpenFileDialog();
             saveFileDialog2 = new SaveFileDialog();
             button5 = new Button();
+            timer1 = new System.Windows.Forms.Timer(components);
+            cOINToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
@@ -64,10 +74,11 @@ namespace Rodrigo_ImageProcessingActivity
             // menuStrip1
             // 
             menuStrip1.ImageScalingSize = new Size(20, 20);
-            menuStrip1.Items.AddRange(new ToolStripItem[] { fileToolStripMenuItem, dIPToolStripMenuItem });
+            menuStrip1.Items.AddRange(new ToolStripItem[] { fileToolStripMenuItem, dIPToolStripMenuItem, onToolStripMenuItem, offToolStripMenuItem, vIDEOToolStripMenuItem, cOINToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(1454, 28);
+            menuStrip1.Padding = new Padding(6, 3, 0, 3);
+            menuStrip1.Size = new Size(1454, 30);
             menuStrip1.TabIndex = 0;
             menuStrip1.Text = "menuStrip1";
             // 
@@ -94,7 +105,7 @@ namespace Rodrigo_ImageProcessingActivity
             // 
             // dIPToolStripMenuItem
             // 
-            dIPToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { pixelCopyToolStripMenuItem, greyscalingToolStripMenuItem, inversionToolStripMenuItem, histogramToolStripMenuItem, sepiaToolStripMenuItem });
+            dIPToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { pixelCopyToolStripMenuItem, greyscalingToolStripMenuItem, inversionToolStripMenuItem, histogramToolStripMenuItem, sepiaToolStripMenuItem, smoothToolStripMenuItem, gaussianBlurToolStripMenuItem, sharpenToolStripMenuItem, meanRemovalToolStripMenuItem, embossingToolStripMenuItem, edgeDetectQuickToolStripMenuItem, toolStripMenuItem1, edgeDetectVerticalToolStripMenuItem });
             dIPToolStripMenuItem.Name = "dIPToolStripMenuItem";
             dIPToolStripMenuItem.Size = new Size(46, 24);
             dIPToolStripMenuItem.Text = "DIP";
@@ -102,37 +113,121 @@ namespace Rodrigo_ImageProcessingActivity
             // pixelCopyToolStripMenuItem
             // 
             pixelCopyToolStripMenuItem.Name = "pixelCopyToolStripMenuItem";
-            pixelCopyToolStripMenuItem.Size = new Size(168, 26);
+            pixelCopyToolStripMenuItem.Size = new Size(248, 26);
             pixelCopyToolStripMenuItem.Text = "Pixel Copy";
             pixelCopyToolStripMenuItem.Click += pixelCopyToolStripMenuItem_Click;
             // 
             // greyscalingToolStripMenuItem
             // 
             greyscalingToolStripMenuItem.Name = "greyscalingToolStripMenuItem";
-            greyscalingToolStripMenuItem.Size = new Size(168, 26);
+            greyscalingToolStripMenuItem.Size = new Size(248, 26);
             greyscalingToolStripMenuItem.Text = "Greyscaling";
             greyscalingToolStripMenuItem.Click += greyscalingToolStripMenuItem_Click;
             // 
             // inversionToolStripMenuItem
             // 
             inversionToolStripMenuItem.Name = "inversionToolStripMenuItem";
-            inversionToolStripMenuItem.Size = new Size(168, 26);
+            inversionToolStripMenuItem.Size = new Size(248, 26);
             inversionToolStripMenuItem.Text = "Inversion";
             inversionToolStripMenuItem.Click += inversionToolStripMenuItem_Click;
             // 
             // histogramToolStripMenuItem
             // 
             histogramToolStripMenuItem.Name = "histogramToolStripMenuItem";
-            histogramToolStripMenuItem.Size = new Size(168, 26);
+            histogramToolStripMenuItem.Size = new Size(248, 26);
             histogramToolStripMenuItem.Text = "Histogram";
             histogramToolStripMenuItem.Click += histogramToolStripMenuItem_Click;
             // 
             // sepiaToolStripMenuItem
             // 
             sepiaToolStripMenuItem.Name = "sepiaToolStripMenuItem";
-            sepiaToolStripMenuItem.Size = new Size(168, 26);
+            sepiaToolStripMenuItem.Size = new Size(248, 26);
             sepiaToolStripMenuItem.Text = "Sepia";
             sepiaToolStripMenuItem.Click += sepiaToolStripMenuItem_Click;
+            // 
+            // smoothToolStripMenuItem
+            // 
+            smoothToolStripMenuItem.Name = "smoothToolStripMenuItem";
+            smoothToolStripMenuItem.Size = new Size(248, 26);
+            smoothToolStripMenuItem.Text = "Smooth";
+            smoothToolStripMenuItem.Click += smoothToolStripMenuItem_Click;
+            // 
+            // gaussianBlurToolStripMenuItem
+            // 
+            gaussianBlurToolStripMenuItem.Name = "gaussianBlurToolStripMenuItem";
+            gaussianBlurToolStripMenuItem.Size = new Size(248, 26);
+            gaussianBlurToolStripMenuItem.Text = "Gaussian Blur";
+            gaussianBlurToolStripMenuItem.Click += gaussianBlurToolStripMenuItem_Click;
+            // 
+            // sharpenToolStripMenuItem
+            // 
+            sharpenToolStripMenuItem.Name = "sharpenToolStripMenuItem";
+            sharpenToolStripMenuItem.Size = new Size(248, 26);
+            sharpenToolStripMenuItem.Text = "Sharpen";
+            sharpenToolStripMenuItem.Click += sharpenToolStripMenuItem_Click;
+            // 
+            // meanRemovalToolStripMenuItem
+            // 
+            meanRemovalToolStripMenuItem.Name = "meanRemovalToolStripMenuItem";
+            meanRemovalToolStripMenuItem.Size = new Size(248, 26);
+            meanRemovalToolStripMenuItem.Text = "Mean Removal";
+            meanRemovalToolStripMenuItem.Click += meanRemovalToolStripMenuItem_Click;
+            // 
+            // embossingToolStripMenuItem
+            // 
+            embossingToolStripMenuItem.Name = "embossingToolStripMenuItem";
+            embossingToolStripMenuItem.Size = new Size(248, 26);
+            embossingToolStripMenuItem.Text = "Embossing";
+            embossingToolStripMenuItem.Click += embossingToolStripMenuItem_Click;
+            // 
+            // edgeDetectQuickToolStripMenuItem
+            // 
+            edgeDetectQuickToolStripMenuItem.Name = "edgeDetectQuickToolStripMenuItem";
+            edgeDetectQuickToolStripMenuItem.Size = new Size(248, 26);
+            edgeDetectQuickToolStripMenuItem.Text = "Edge Detect Quick";
+            edgeDetectQuickToolStripMenuItem.Click += edgeDetectQuickToolStripMenuItem_Click;
+            // 
+            // toolStripMenuItem1
+            // 
+            toolStripMenuItem1.Name = "toolStripMenuItem1";
+            toolStripMenuItem1.Size = new Size(248, 26);
+            toolStripMenuItem1.Text = "Edge Detect Horizontal";
+            toolStripMenuItem1.Click += toolStripMenuItem1_Click;
+            // 
+            // edgeDetectVerticalToolStripMenuItem
+            // 
+            edgeDetectVerticalToolStripMenuItem.Name = "edgeDetectVerticalToolStripMenuItem";
+            edgeDetectVerticalToolStripMenuItem.Size = new Size(248, 26);
+            edgeDetectVerticalToolStripMenuItem.Text = "Edge Detect Vertical";
+            edgeDetectVerticalToolStripMenuItem.Click += edgeDetectVerticalToolStripMenuItem_Click;
+            // 
+            // onToolStripMenuItem
+            // 
+            onToolStripMenuItem.Name = "onToolStripMenuItem";
+            onToolStripMenuItem.Size = new Size(81, 24);
+            onToolStripMenuItem.Text = "ON CAM";
+            onToolStripMenuItem.Click += onToolStripMenuItem_Click;
+            // 
+            // offToolStripMenuItem
+            // 
+            offToolStripMenuItem.Name = "offToolStripMenuItem";
+            offToolStripMenuItem.Size = new Size(84, 24);
+            offToolStripMenuItem.Text = "OFF CAM";
+            offToolStripMenuItem.Click += offToolStripMenuItem_Click;
+            // 
+            // vIDEOToolStripMenuItem
+            // 
+            vIDEOToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { grayscaleToolStripMenuItem });
+            vIDEOToolStripMenuItem.Name = "vIDEOToolStripMenuItem";
+            vIDEOToolStripMenuItem.Size = new Size(66, 24);
+            vIDEOToolStripMenuItem.Text = "VIDEO";
+            // 
+            // grayscaleToolStripMenuItem
+            // 
+            grayscaleToolStripMenuItem.Name = "grayscaleToolStripMenuItem";
+            grayscaleToolStripMenuItem.Size = new Size(154, 26);
+            grayscaleToolStripMenuItem.Text = "grayscale";
+            grayscaleToolStripMenuItem.Click += grayscaleToolStripMenuItem_Click;
             // 
             // openFileDialog1
             // 
@@ -145,24 +240,29 @@ namespace Rodrigo_ImageProcessingActivity
             // 
             // pictureBox1
             // 
-            pictureBox1.Location = new Point(325, 82);
+            pictureBox1.BackColor = SystemColors.ActiveBorder;
+            pictureBox1.Location = new Point(325, 83);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(348, 324);
+            pictureBox1.Size = new Size(347, 324);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 1;
             pictureBox1.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click_1;
             // 
             // pictureBox2
             // 
-            pictureBox2.Location = new Point(850, 82);
+            pictureBox2.BackColor = SystemColors.ActiveBorder;
+            pictureBox2.Location = new Point(850, 83);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(352, 324);
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox2.TabIndex = 2;
             pictureBox2.TabStop = false;
+            pictureBox2.Click += pictureBox2_Click;
             // 
             // pictureBox3
             // 
+            pictureBox3.BackColor = SystemColors.ActiveBorder;
             pictureBox3.Location = new Point(57, 487);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(352, 324);
@@ -172,6 +272,7 @@ namespace Rodrigo_ImageProcessingActivity
             // 
             // pictureBox4
             // 
+            pictureBox4.BackColor = SystemColors.ActiveBorder;
             pictureBox4.Location = new Point(584, 487);
             pictureBox4.Name = "pictureBox4";
             pictureBox4.Size = new Size(352, 324);
@@ -181,6 +282,7 @@ namespace Rodrigo_ImageProcessingActivity
             // 
             // pictureBox5
             // 
+            pictureBox5.BackColor = SystemColors.ActiveBorder;
             pictureBox5.Location = new Point(1042, 487);
             pictureBox5.Name = "pictureBox5";
             pictureBox5.Size = new Size(352, 324);
@@ -242,6 +344,17 @@ namespace Rodrigo_ImageProcessingActivity
             button5.UseVisualStyleBackColor = true;
             button5.Click += button5_Click;
             // 
+            // timer1
+            // 
+            timer1.Tick += timer1_Tick;
+            // 
+            // cOINToolStripMenuItem
+            // 
+            cOINToolStripMenuItem.Name = "cOINToolStripMenuItem";
+            cOINToolStripMenuItem.Size = new Size(58, 24);
+            cOINToolStripMenuItem.Text = "COIN";
+            cOINToolStripMenuItem.Click += cOINToolStripMenuItem_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -260,6 +373,7 @@ namespace Rodrigo_ImageProcessingActivity
             MainMenuStrip = menuStrip1;
             Name = "Form1";
             Text = "Form1";
+            Load += Form1_Load;
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
@@ -302,5 +416,19 @@ namespace Rodrigo_ImageProcessingActivity
         private OpenFileDialog openFileDialog3;
         private SaveFileDialog saveFileDialog2;
         private Button button5;
+        private ToolStripMenuItem onToolStripMenuItem;
+        private ToolStripMenuItem offToolStripMenuItem;
+        private ToolStripMenuItem vIDEOToolStripMenuItem;
+        private ToolStripMenuItem grayscaleToolStripMenuItem;
+        private System.Windows.Forms.Timer timer1;
+        private ToolStripMenuItem smoothToolStripMenuItem;
+        private ToolStripMenuItem gaussianBlurToolStripMenuItem;
+        private ToolStripMenuItem sharpenToolStripMenuItem;
+        private ToolStripMenuItem meanRemovalToolStripMenuItem;
+        private ToolStripMenuItem embossingToolStripMenuItem;
+        private ToolStripMenuItem edgeDetectQuickToolStripMenuItem;
+        private ToolStripMenuItem toolStripMenuItem1;
+        private ToolStripMenuItem edgeDetectVerticalToolStripMenuItem;
+        private ToolStripMenuItem cOINToolStripMenuItem;
     }
 }
